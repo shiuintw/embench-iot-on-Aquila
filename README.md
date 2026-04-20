@@ -1,3 +1,15 @@
+# Embench On Aquila
+
+>This is the embench compile for Aquila by Cheng-Yu Hsu.
+>In this version, not all the software can be compiled.
+>It will be updated if problem fixed.
+>You can use `make` at `examples/riscv32/Aquila/` to build the software at `examples/riscv32/Aquila/build/{sw_name}/{sw_name}.elf`
+
+## Changes from upstream
+- Added Makefile-based build flow for Aquila SoC (`examples/riscv32/Aquila/`)
+- Added board support with UART output and cycle counter
+- Uses custom elibc from Aquila belonging to [eisl-nctu](https://github.com/eisl-nctu)
+
 # Embench&#x2122;: Open Benchmarks for Embedded Platforms
 
 This repository contains the Embench&#x2122; free and open source benchmark
