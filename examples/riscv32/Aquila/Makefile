@@ -29,8 +29,8 @@ CFLAGS  = -Wall -O3 $(RISCV_ABI) \
 LDFLAGS = -gc-sections -Tlink.ld
 
 BENCHMARKS = aha-mont64 crc32 depthconv edn huffbench matmult-int md5sum \
-	     nettle-aes nettle-sha256 sglib-combined statemate tarfind ud
-# error: nsichneu, picojpeg, qrduino, xgboost: mem overflow
+	     nettle-aes nettle-sha256 sglib-combined statemate tarfind ud \
+	     nsichneu picojpeg qrduino xgboost
 # error: slre: _ctype_
 # error: wikisort: bool
 
